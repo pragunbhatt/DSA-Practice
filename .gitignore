@@ -1,0 +1,22 @@
+# Mac OS system files
+.DS_Store
+.AppleDouble
+.ls-cache
+._*
+
+# VS Code directory & local settings
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/settings.json
+
+# C++ compiled executables & object files
+*.o
+*.out
+*.exe
+*.dSYM/
+
+# Ignore compiled binary executables generated without extensions (common on Mac/Linux)
+# Matches compiled files like '2d_arrays', 'diagnol_sum', 'spiral_matrix', etc.
+!*.*
+!**/
