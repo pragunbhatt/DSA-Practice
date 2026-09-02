@@ -4,19 +4,16 @@
 .ls-cache
 ._*
 
-# VS Code directory & local settings
-.vscode/*
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/settings.json
+# Visual Studio Code settings
+.vscode/
 
-# C++ compiled executables & object files
+# Compiled C++ object files and executables with extensions
 *.o
 *.out
 *.exe
 *.dSYM/
 
-# Ignore compiled binary executables generated without extensions (common on Mac/Linux)
-# Matches compiled files like '2d_arrays', 'diagnol_sum', 'spiral_matrix', etc.
+# Ignore Mac compiled binaries without extensions (e.g., '2d_arrays', 'spiral_matrix')
+# Applies across all main folders and subdirectories
 !*.*
 !**/
