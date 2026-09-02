@@ -1,19 +1,16 @@
-# Mac OS system files
-.DS_Store
-.AppleDouble
-.ls-cache
-._*
+# Ignore everything by default
+*
 
-# Visual Studio Code settings
-.vscode/
+# Allow directories so git can traverse folders
+!*/
 
-# Compiled C++ object files and executables with extensions
-*.o
-*.out
-*.exe
-*.dSYM/
+# Keep gitignore itself
+!.gitignore
 
-# Ignore Mac compiled binaries without extensions (e.g., '2d_arrays', 'spiral_matrix')
-# Applies across all main folders and subdirectories
-!*.*
-!**/
+# Keep README files (if any)
+!*.md
+
+# Allow ONLY C++ source files
+!*.cpp
+!*.h
+!*.hpp
