@@ -1,0 +1,16 @@
+# Ignore everything by default
+*
+
+# Allow directories so git can traverse folders
+!*/
+
+# Keep gitignore itself
+!.gitignore
+
+# Keep README files (if any)
+!*.md
+
+# Allow ONLY C++ source files
+!*.cpp
+!*.h
+!*.hpp
