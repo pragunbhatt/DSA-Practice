@@ -20,4 +20,4 @@ int main(){
     cout<<power(3,2)<<endl;
 
     return 0;
-}
+}   
